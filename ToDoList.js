@@ -24,7 +24,7 @@ function displayTasks(){
         const date = todolist[i].date;
         const task = todolist[i].task;
         ListElem.innerHTML += `<p class="tasks"
-        > ${task}/t ${date}/t
+        > ${task} ${date}
         <button class="delete-task" 
         onclick=" todolist.splice(${ i }, 1);
         displayTasks();"
