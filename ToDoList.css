@@ -1,0 +1,24 @@
+.add {
+ color :rgb(246, 248, 248);
+ background-color : rgb(8, 201, 8);
+ border-color: rgb(8, 201, 8);
+}
+
+.delete-task {
+color : white;
+background-color: rgb(238, 10, 10);
+border-color : rgb(238, 10, 10);
+}
+.js-task {
+    border-color : black;
+    width: 300px;
+    
+}
+.heading {
+    
+    color : black;
+    font-size : 30px;
+}
+.tasks {
+    width : 300px;
+}

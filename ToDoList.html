@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href = 'scripts/style_sheets/ToDoList.css ' 
+    rel = "stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body class="codebody">
+    <h1 class="heading">To Do List</h1>
+    <input placeholder="Enter your task here "
+    class="js-task">
+    <input type="date" 
+    class="due-date-input">
+    <button class="add" onclick="
+     addTask();
+     displayTasks();
+    ">Add</button>
+    <p class="js-tasklist"></p>
+<script src = 'scripts/ToDoList.js'>    </script>
+</body>
+</html>
